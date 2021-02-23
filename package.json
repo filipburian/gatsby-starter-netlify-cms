@@ -4,21 +4,27 @@
   "version": "1.1.3",
   "author": "Austin Green",
   "dependencies": {
-    "bulma": "^0.9.0",
+    "antd": "^4.12.3",
+    "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^2.20.35",
     "gatsby-image": "^2.3.5",
+    "gatsby-plugin-antd": "^2.2.0",
+    "gatsby-plugin-less": "^4.7.0",
     "gatsby-plugin-netlify": "^2.2.4",
     "gatsby-plugin-netlify-cms": "^4.2.5",
     "gatsby-plugin-purgecss": "^5.0.0",
     "gatsby-plugin-react-helmet": "^3.2.5",
     "gatsby-plugin-sass": "^2.2.4",
     "gatsby-plugin-sharp": "^2.5.7",
+    "gatsby-plugin-styled-components": "^3.10.0",
     "gatsby-remark-copy-linked-files": "^2.2.4",
     "gatsby-remark-images": "^3.2.6",
     "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-source-filesystem": "^2.2.5",
     "gatsby-transformer-remark": "^2.7.5",
     "gatsby-transformer-sharp": "^2.4.7",
+    "less": "^4.1.1",
+    "less-to-json": "^1.2.0",
     "lodash": "^4.17.15",
     "lodash-webpack-plugin": "^0.11.4",
     "netlify-cms-app": "^2.9.6",
@@ -29,6 +35,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^6.0.0",
+    "styled-components": "^5.2.1",
     "uuid": "^7.0.0"
   },
   "keywords": [
@@ -40,9 +47,10 @@
     "clean": "gatsby clean",
     "start": "npm run develop",
     "build": "npm run clean && gatsby build",
-    "develop": "npm run clean && gatsby develop",
+    "develop": "npm run clean && gatsby develop --host=0.0.0.0",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ci": "yarn install --frozen-lockfile"
   },
   "devDependencies": {
     "prettier": "^2.0.5"
