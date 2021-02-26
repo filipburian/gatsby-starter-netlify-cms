@@ -10,6 +10,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-styled-components',
+    `gatsby-plugin-remove-trailing-slashes`,
     {
       resolve: 'gatsby-plugin-antd',
       options: {
@@ -21,7 +22,7 @@ module.exports = {
       options: {
         lessOptions: {
           javascriptEnabled: true,
-            modifyVars: lessToJson('src/theme/vars.less'),
+          modifyVars: lessToJson('src/theme/vars.less'),
         },
       },
     },
@@ -82,7 +83,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
-    },// must be after other CSS plugins
+    }, // must be after other CSS plugins
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 };

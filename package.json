@@ -53,6 +53,7 @@
     "ci": "yarn install --frozen-lockfile"
   },
   "devDependencies": {
+    "gatsby-plugin-remove-trailing-slashes": "^2.10.0",
     "prettier": "^2.0.5"
   }
 }

@@ -1,8 +1,12 @@
 ---
+templateKey: navbar
 menuItems:
   - label: Strona Główna
     linkType: internal
     linkURL: /
+  - label: O Nas
+    linkType: internal
+    linkURL: /about
   - label: Realizacje
     linkType: internal
     linkURL: /realizations
