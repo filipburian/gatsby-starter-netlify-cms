@@ -6,10 +6,10 @@ menuItems:
     linkURL: /
   - label: O Nas
     linkType: internal
-    linkURL: /about
+    linkURL: about
   - label: Realizacje
     linkType: internal
-    linkURL: /realizations
+    linkURL: realizations
     subNav:
       - label: test
         linkType: internal
