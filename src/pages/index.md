@@ -17,6 +17,7 @@ pl:
     Do zobaczenia w krótce!
   demoFontColor: "#ffffff"
   demoBackground: /img/products-grid1.jpg
+  releaseDate: 2021-06-23T15:00:00.000Z
   homeFontColor: "#ffffff"
   demoTitle: Demo
   demoVideoUrl: https://fb.watch/52tj-ZQTAm/
@@ -40,6 +41,7 @@ en:
 
 
     See you soon!
+  releaseDate: 2021-06-23T15:00:00.000Z
   demoTitle: Demo
   demoVideoUrl: https://fb.watch/52tj-ZQTAm/
   title: a
@@ -61,6 +63,7 @@ cs:
 
 
     Brzy se uvidíme!
+  releaseDate: 2021-06-23T15:00:00.000Z
   demoTitle: Demo
   demoVideoUrl: https://fb.watch/52tj-ZQTAm/
   title: c
